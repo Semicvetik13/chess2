@@ -1,0 +1,38 @@
+p{
+   margin: 0;
+}
+p.NAME 
+{
+   font-size: 28px;
+   font-weight: 700;
+   margin-top: 20px;
+}
+p.BIRTHDAY
+{
+   color: green;
+}
+a:before{
+   content: url(images/extref.png
+);
+}
+a{
+   font-weight: bold;
+   text-decoration: none;
+   color: blue;
+}
+a:last-of-type::before{
+   content: none;
+}
+a:hover{
+   text-decoration: underline; 
+}
+p.CHAMPION
+{
+   color: red;
+   font-weight: bold;
+}
+div.INFO
+{
+   font-style: italic;
+   color: blue; 
+}
